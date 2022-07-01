@@ -2,7 +2,7 @@ let div = document.getElementById("videodiv");
 
 async function display(){
 
-    let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?q=popular%20videos&key=AIzaSyA00OxUbfdfVAjHn-9l48s0t-n_j7CBbNs&maxResults=25`);
+    let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?q=popular%20videos&key=AIzaSyDUuOhF6KDa5IPZ3TKt9JU3T2kAjnOtCVc&maxResults=25`);
 
     let data = await res.json();
     
