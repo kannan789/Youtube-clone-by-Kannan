@@ -25,7 +25,7 @@ async function searchVideos(){
 
     let query = document.getElementById("video").value; // Search String/ Query String
 
-let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?q=${query}&type=video&key=AIzaSyA00OxUbfdfVAjHn-9l48s0t-n_j7CBbNs&maxResults=25`);
+let res = await fetch(`https://youtube.googleapis.com/youtube/v3/search?q=${query}&type=video&key=AIzaSyDUuOhF6KDa5IPZ3TKt9JU3T2kAjnOtCVc&maxResults=25`);
 let data = await res.json();
 
 for({id:{videoId}}of data.items)
